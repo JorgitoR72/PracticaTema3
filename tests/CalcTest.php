@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-require '../Calc.php';
+require '../src/Calc.php';
 
 class CalcTest extends TestCase
 {
