@@ -16,6 +16,6 @@ class CalcTest extends TestCase
     {
         $calc = new Calc();
         $result = $calc->sum(1, -1);
-        $this->assertEquals(1, $result); 
+        $this->assertEquals(0, $result); 
     }
 }
